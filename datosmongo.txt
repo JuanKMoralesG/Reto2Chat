@@ -1,0 +1,23 @@
+juancmoralesg
+BVinRjb1T62qWgiO
+
+mongodb+srv://juancmoralesg:<db_password>@reto2chat.wcwcj.mongodb.net/?retryWrites=true&w=majority&appName=Reto2Chat
+
+
+dav
+0FMaCL0UrOQnU2uVBgR63fiDE2oEU61Pf0W0RrVKMZreilzKfEV3V8q88AJ6lGqt
+
+davtwo
+QhUXUh4gezK62F5XMblxXs79ZiJJkTIgrGwcrKLCKbo4nQMk2m5yxS1933qaFoA7
+
+
+curl --location --request POST 'https://us-east-1.aws.data.mongodb-api.com/app/data-jqncflg/endpoint/data/v1/action/findOne' \
+--header 'Content-Type: application/json' \
+--header 'Access-Control-Request-Headers: *' \
+--header 'api-key: QhUXUh4gezK62F5XMblxXs79ZiJJkTIgrGwcrKLCKbo4nQMk2m5yxS1933qaFoA7' \
+--data-raw '{
+    "collection":"users",
+    "database":"sample_mflix",
+    "dataSource":"Reto2Chat",
+    "projection": {"_id": 1}
+}'
